@@ -26,6 +26,11 @@
             android:persistent="false"
             android:streamType="ring" />
 
+   	<PreferenceScreen
+        android:key="quiet_hours"
+        android:fragment="com.android.settings.QuietHours"
+        android:title="@string/quiet_hours_title" />
+
     <ListPreference
             android:key="volume_overlay"
             android:title="@string/volume_overlay_title"
